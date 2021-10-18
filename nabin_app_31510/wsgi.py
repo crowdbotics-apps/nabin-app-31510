@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'nabin_app_31510.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "nabin_app_31510.settings")
 
 application = get_wsgi_application()
